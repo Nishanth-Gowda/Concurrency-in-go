@@ -2,9 +2,10 @@
 
 ![Go Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/320px-Go_Logo_Blue.svg.png)
 
-Welcome to the "Concurrency in Go" repository! This repository explores the concept of Map with a focus on their implementation in the Go programming language.
+Welcome to the "Concurrency in Go" repository! This repository explores the concept of Concurrency with a focus on their implementation in the Go programming language.
 
 ## Table of Contents
+## Introduction to goroutines(#introduction-to-goroutines)
 
 
 
@@ -22,7 +23,7 @@ hundreds of thousands of them on a single machine will pose any problem.
 ## The Go scheduler
 - Go runtime has its own scheduler which is responsible for the execution of the goroutine.
 
--The technique is also known as m:n scheduling, where m i goroutines are executed using n os threads.
+- The technique is also known as m:n scheduling, where m i goroutines are executed using n os threads.
 
 - The Go scheduler is the Go component responsible for the way and the order in which the
 goroutines of a Go program get executed.
