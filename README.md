@@ -5,7 +5,7 @@
 Welcome to the "Concurrency in Go" repository! This repository explores the concept of Concurrency with a focus on their implementation in the Go programming language.
 
 ## Table of Contents
-## Introduction to goroutines(#introduction-to-goroutines)
+- Introduction to goroutines(#introduction-to-goroutines)
 
 
 
